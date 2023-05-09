@@ -2,7 +2,7 @@
 
 Objectif : avoir une vue globale des entités de notre application et des liens entre ces entités
 
-## Vocabulaire 
+## Vocabulaire
 
 - `entité` (ex: "prof", "student", "promotion")
 - `attributs` (ex: "prénom", "nom de famille")
@@ -11,8 +11,8 @@ Objectif : avoir une vue globale des entités de notre application et des liens 
 - `association` : lien entre les entités
   - `cardinalité` : (ex: `1 - N`, une promo peut avoir entre 1 et N étudiants). le nombre associé entre deux entités
 
+Attention, on ne parle pas de ces mots qui sont réservés au MLD et MPD.
 
-Attention, on ne parle pas de ces mots qui sont réservés au MLD et MPD. 
 - `table`
 - `champs`/`colonne`
 - `ID` (ni `clé primaire`, ni `clé étrangère`)
@@ -20,10 +20,9 @@ Attention, on ne parle pas de ces mots qui sont réservés au MLD et MPD.
 
 On met pas les ID, donc pas les clés étrangères : on mes les liens (associations + cardinalité) entre les entités
 
-
 ## Script
 
-Astuce pour la construction d'un MCD 
+Astuce pour la construction d'un MCD
 
 - Lister les entités :
   - `quiz`
@@ -32,16 +31,3 @@ Astuce pour la construction d'un MCD
   - `utilisateur`
   - `theme`
   - `difficulté`
-
-
-## MCD remarque 
-
-Un MCD est un **modele** !!!
-
-=> il peut exister plusieurs modèle pour répondre à une même problématique 
-
-=> pour faire correspondre une implémentation technique à un problème de la réalité 
-
-## Exercice Bonus ? 
-
-=> checker l'exo `OCode S04E02 : Les bières de ma cave`

@@ -3,7 +3,7 @@ const pgSession = require('connect-pg-simple')(expressSession);
 
 const { Client } = require("pg");
 
-const client = new Client(process.env.PGDATABASE);
+const client = new Client(process.env.PG_URL);
 
 client.connect();
 
